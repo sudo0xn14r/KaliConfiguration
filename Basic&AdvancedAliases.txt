@@ -1,0 +1,116 @@
+#System-Wide BASIC Configuration
+alias c='clear'
+alias updatenow="sudo apt-get update"
+alias upgradenow="sudo apt-get upgrade"
+alias upd-upg="sudo apt-get update && sudo apt-get upgrade"
+alias ping="ping -c 4"
+
+#Advanced Aliases
+#NMAP shortcuts
+
+#Starting with P {port} {ALL combinations + speed filters}
+#PVC
+alias nmapPVC="sudo nmap -p- -sV -sC"
+alias nmapPVCQ1="sudo nmap -p- -sV -sC -T 1"
+alias nmapPVCQ2="sudo nmap -p- -sV -sC -T 2"
+alias nmapPVCQ3="sudo nmap -p- -sV -sC -T 3"
+alias nmapPVCQ4="sudo nmap -p- -sV -sC -T 4"
+#PV
+alias nmapPV="sudo nmap -p- -sV"
+alias nmapPVQ1="sudo nmap -p- -sV -T 1"
+alias nmapPVQ2="sudo nmap -p- -sV -T 2"
+alias nmapPVQ3="sudo nmap -p- -sV -T 3"
+alias nmapPVQ4="sudo nmap -p- -sV -T 4"
+#PC
+alias nmapPC="sudo nmap -p- -sC"
+alias nmapPCQ1="sudo nmap -p- -sC -T 1"
+alias nmapPCQ2="sudo nmap -p- -sC -T 2"
+alias nmapPCQ3="sudo nmap -p- -sC -T 3"
+alias nmapPCQ4="sudo nmap -p- -sC -T 4"
+
+#PCV
+alias nmapPCV="sudo nmap -p- -sC -sV"
+alias nmapPCVQ1="sudo nmap -p- -sC -sV -T 1"
+alias nmapPCVQ2="sudo nmap -p- -sC -sV -T 2"
+alias nmapPCVQ3="sudo nmap -p- -sC -sV -T 3"
+alias nmapPCVQ4="sudo nmap -p- -sC -sV -T 4"
+
+#P
+alias nmapP="sudo nmap -p-"
+alias nmapPQ1="sudo nmap -p- -T 1"
+alias nmapPQ2="sudo nmap -p- -T 2"
+alias nmapPQ3="sudo nmap -p- -T 3"
+alias nmapPQ4="sudo nmap -p- -T 4"
+
+
+#Starting with C {default scripts + stealth} {ALL combinations + speed filters}
+#C
+alias nmapC="sudo nmap -sC"
+alias nmapCQ1="sudo nmap -sC -T 1"
+alias nmapCQ2="sudo nmap -sC -T 2"
+alias nmapCQ3="sudo nmap -sC -T 3"
+alias nmapCQ4="sudo nmap -sC -T 4"
+
+#CPV
+alias nmapCPV="sudo nmap -sC -p- -sV"
+alias nmapCPVQ1="sudo nmap -sC -p- -sV -T 1"
+alias nmapCPVQ2="sudo nmap -sC -p- -sV -T 2"
+alias nmapCPVQ3="sudo nmap -sC -p- -sV -T 3"
+alias nmapCPVQ4="sudo nmap -sC -p- -sV -T 4"
+
+#CVP
+alias nmapCVP="sudo nmap -sC -sV -p-"
+alias nmapCVPQ1="sudo nmap -sC -sV -p- -T 1"
+alias nmapCVPQ2="sudo nmap -sC -sV -p- -T 2"
+alias nmapCVPQ3="sudo nmap -sC -sV -p- -T 3"
+alias nmapCVPQ4="sudo nmap -sC -sV -p- -T 4"
+
+#CP
+alias nmapCP="sudo nmap -sC -p-"
+alias nmapCPQ1="sudo nmap -sC -p- -T 1"
+alias nmapCPQ2="sudo nmap -sC -p- -T 2"
+alias nmapCPQ3="sudo nmap -sC -p- -T 3"
+alias nmapCPQ4="sudo nmap -sC -p- -T 4"
+
+#CV
+alias nmapCV="sudo nmap -sC -sV"
+alias nmapCVQ1="sudo nmap -sC -sV -T 1"
+alias nmapCVQ2="sudo nmap -sC -sV -T 2"
+alias nmapCVQ3="sudo nmap -sC -sV -T 3"
+alias nmapCVQ4="sudo nmap -sC -sV -T 4"
+
+#Starting with V {Version} {ALL combinations + speed filters}
+#V
+alias nmapV="sudo nmap -sV"
+alias nmapVQ1="sudo nmap -sV -T 1"
+alias nmapVQ2="sudo nmap -sV -T 2"
+alias nmapVQ3="sudo nmap -sV -T 3"
+alias nmapVQ4="sudo nmap -sV -T 4"
+
+#VC
+alias nmapVC="sudo nmap -sV -sC"
+alias nmapVCQ1="sudo nmap -sV -sC -T 1"
+alias nmapVCQ2="sudo nmap -sV -sC -T 2"
+alias nmapVCQ3="sudo nmap -sV -sC -T 3"
+alias nmapVCQ4="sudo nmap -sV -sC -T 4"
+
+#VP
+alias nmapVP="sudo nmap -sV -p-"
+alias nmapVPQ1="sudo nmap -sV -p- -T 1"
+alias nmapVPQ2="sudo nmap -sV -p- -T 2"
+alias nmapVPQ3="sudo nmap -sV -p- -T 3"
+alias nmapVPQ4="sudo nmap -sV -p- -T 4"
+
+#VPC
+alias nmapVPC="sudo nmap -sV -p- -sC"
+alias nmapVPCQ1="sudo nmap -sV -p- -sC -T 1"
+alias nmapVPCQ2="sudo nmap -sV -p- -sC -T 2"
+alias nmapVPCQ3="sudo nmap -sV -p- -sC -T 3"
+alias nmapVPCQ4="sudo nmap -sV -p- -sC -T 4"
+
+#VCP
+alias nmapVCP="sudo nmap -sV -sC -p-"
+alias nmapVCPQ1="sudo nmap -sV -sC -p- -T 1"
+alias nmapVCPQ2="sudo nmap -sV -sC -p- -T 2"
+alias nmapVCPQ3="sudo nmap -sV -sC -p- -T 3"
+alias nmapVCPQ4="sudo nmap -sV -sC -p- -T 4"
